@@ -12,6 +12,6 @@ resource "aws_instance" "terraform-demo-host" {
   
 
   tags = {
-    Name = "terraform-test3"
+    Name = "terraform-test4"
   }
 }

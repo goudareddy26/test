@@ -1,12 +1,12 @@
 
 provider "aws" {
- region = "ap-south-1"
+ region = "us-east-2"
  
  }
 
 
 resource "aws_instance" "terraform-demo-host" {
-  ami = "ami-0d92749d46e71c34c"
+  ami = "ami-09f85f3aaae282910"
   key_name = "dec"
   instance_type = "t2.micro"
   

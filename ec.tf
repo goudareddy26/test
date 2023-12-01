@@ -1,17 +1,17 @@
 
 provider "aws" {
- region = "ap-south-1"
+ region = "us-east-2"
  
  }
 
 
 resource "aws_instance" "terraform-demo-host" {
-  ami = "ami-02a2af70a66af6dfb"
-  key_name = "gsgogi03"
+  ami = "ami-09f85f3aaae282910"
+  key_name = "dec"
   instance_type = "t2.micro"
   
 
   tags = {
-    Name = "terraform-test3"
+    Name = "terraform-test4"
   }
 }

@@ -7,7 +7,7 @@ provider "aws" {
 
 resource "aws_instance" "terraform-demo-host" {
   ami = "ami-09f85f3aaae282910"
-  key_name = "dec"
+  key_name = "gsgogi03"
   instance_type = "t2.micro"
   
 
